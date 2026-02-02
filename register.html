@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fox Day Campus Events</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <h1>Register Below!⬇️</h1>
+            <p>We can't wait to see you there! </p>
+
+            <form action="process.php" method="POST">
+            Name: <input type="text" name="name" ><br>
+            E-mail: <input type="text" name="email" ><br>
+
+            Select an Event:
+            <select name="event" >
+            <option>Paddleboard with Tommy Tar</option>
+            <option>Welcome to the Cookout</option>
+            <option>Build-A-Fox Station</option>
+            <option>Pool Party</option>
+            </select><br><br>
+
+            Select Your Year:
+            <select name="year">
+            <option>Freshman</option>
+            <option>Sophomore</option>
+            <option>Junior</option>
+            <option>Senior</option>
+            </select><br><br>
+            
+            <label for="comments">What are you most excited about?</label>
+            <textarea id="comments" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="checkbox" id="promise" name="promise" value="Checked">
+            <label for="promise">I will not play Fox Day roulette and complete my homework on time</label><br><br>
+
+            <input type="submit" value="Submit">
+            </form>
+
+             </div>
+
+            <br><br>
+            <a href="index.html">Go back to the Home page.</a>
+
+       
+    </body>
+    
+</html>
